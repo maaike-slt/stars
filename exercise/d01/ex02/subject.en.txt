@@ -1,0 +1,13 @@
+file to turn in:		div.c
+forbidden functions:	None
+
+you shall create the function `div`
+with the prototype:
+```c
+float	div(float a, float b);
+```
+
+this function need to return the division of `a` by `b`
+/!\ take care to return a `float` /!\
+
+good luck :3
