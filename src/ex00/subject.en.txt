@@ -7,7 +7,6 @@ with the prototype:
 int	answer(void);
 ```
 
-this function need to return the 'Answer to the Ultimate Question of Life, the
-Universe, and Everything'
+this function need to return the 'Answer to the Ultimate Question of Life, the Universe, and Everything'
 
 good luck :3
