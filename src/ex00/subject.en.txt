@@ -1,0 +1,13 @@
+file to turn in:		answer.c
+forbidden functions:	None
+
+you shall create the function `answer`
+with the prototype:
+```c
+int	answer(void);
+```
+
+this function need to return the 'Answer to the Ultimate Question of Life, the
+Universe, and Everything'
+
+good luck :3
