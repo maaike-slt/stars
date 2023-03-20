@@ -1,0 +1,12 @@
+file to turn in:		add.c
+forbidden functions:	None
+
+you shall create the function `add`
+with the prototype:
+```c
+int	add(int a, int b);
+```
+
+this function need to return the sum of `a` and `b`
+
+good luck :3
