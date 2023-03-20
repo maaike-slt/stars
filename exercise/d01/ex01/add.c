@@ -6,12 +6,14 @@
 /*   By: maaike <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/20 14:20:14 by maaike            #+#    #+#             */
-/*   Updated: 2023/03/20 14:20:18 by maaike           ###   ########.fr       */
+/*   Updated: 2023/03/20 14:31:54 by maaike           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	add(int a, int b)
 {
-	sum = int a + int b;
+	int	sum;
+
+	sum = a + b;
 	return (sum);
 }
