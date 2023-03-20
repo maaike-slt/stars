@@ -1,0 +1,13 @@
+file to turn in:		big.c
+forbidden functions:	None
+
+you shall create the function `big`
+with the prototype:
+```c
+unsigned int	big(unsigned int a, unsigned int b);
+```
+
+this function need to return the biggest `unsigned int` between `a` and `b`
+make sure you understand what is an `unsigned int`
+
+good luck :3
