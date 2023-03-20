@@ -6,11 +6,9 @@
 /*   By: adelille <adelille@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/20 10:13:19 by adelille          #+#    #+#             */
-/*   Updated: 2023/03/20 14:18:05 by adelille         ###   ########.fr       */
+/*   Updated: 2023/03/20 14:21:30 by adelille         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 float	div(float a, float b);
 
