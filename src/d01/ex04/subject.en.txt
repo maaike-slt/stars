@@ -1,0 +1,24 @@
+file to turn in:		sum.c
+forbidden functions:	None
+
+⚠️ this exercise step up the difficulty
+but if you succeed the next exercise
+the next exercise will have a way smaller difficulty step !!
+
+you shall create the function `sum`
+with the prototype:
+```c
+unsigned int	big(unsigned int n);
+```
+
+this function need to return the sum of all number from 0 to `n`
+
+if `n` = 3:
+sum(3) = 0 + 1 + 2 + 3 = 6
+
+if `n` = 5:
+sum(5) = 0 + 1 + 2 + 3 + 4 + 5 = 15
+
+💡 tip: look at `while` loop
+
+good luck :3
