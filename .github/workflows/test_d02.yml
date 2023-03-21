@@ -1,0 +1,45 @@
+name: test d02
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        ex: ["00"]
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: make d02 ex${{ matrix.ex }}
+        run: make -C ./src/d02/ex${{ matrix.ex }}
+
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        ex: ["00"]
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: test d02 ex${{ matrix.ex }}
+        run: make -C ./src/d02/ex${{ matrix.ex }} test
+
+  norminette:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        ex: ["00"]
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: alexandregv/norminette-action@v3
+        with:
+          flags: "./src/d02/ex${{ matrix.ex }}"
