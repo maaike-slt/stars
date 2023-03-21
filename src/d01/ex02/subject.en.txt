@@ -8,6 +8,6 @@ float	div(float a, float b);
 ```
 
 this function need to return the division of `a` by `b`
-/!\ take care to return a `float` /!\
+⚠️  take care to return a `float` ⚠️
 
 good luck :3
