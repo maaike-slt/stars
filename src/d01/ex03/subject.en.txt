@@ -8,6 +8,6 @@ unsigned int	big(unsigned int a, unsigned int b);
 ```
 
 this function need to return the biggest `unsigned int` between `a` and `b`
-make sure you understand what is an `unsigned int`
+make sure you understand what an `unsigned int` is
 
 good luck :3
