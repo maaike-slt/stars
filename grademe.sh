@@ -10,6 +10,10 @@ echo -e "\033c\033[1m\t    \tC
 
 for d in ./src/*; do
     N=$(basename "$d")
+	if [[ "$N" == "d00" ]]; then
+		continue
+	fi
+
     echo -e "\033[1;35m$N\033[0m:"
     
     OK=true
@@ -57,7 +61,7 @@ for d in ./src/*; do
     done
     
     if [ "$OK" = true ]; then
-        echo "🏆"
+        echo "  🏆"
     fi
     
     echo
