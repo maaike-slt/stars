@@ -1,23 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   sum.c                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adelille <adelille@student.42.fr>          +#+  +:+       +#+        */
+/*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/20 10:13:19 by adelille          #+#    #+#             */
-/*   Updated: 2023/03/22 19:26:20 by msloot           ###   ########.fr       */
+/*   Created: 2023/03/22 19:18:04 by msloot            #+#    #+#             */
+/*   Updated: 2023/03/22 19:32:33 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-unsigned int	sum(unsigned int tree);
+#include <stdio.h>
 
-int	main(void)
+unsigned int	sum(unsigned int tree)
 {
-	sum(3);
-	return (!(
-			sum(3) == 5
-			&& sum(5) == 15
-			&& sum(0) == 0
-		));
+	unsigned int	apple;
+
+	apple = 0;
+	while (apple <= tree)
+	{
+		printf("%d\n", apple);
+		++apple;
+	}
+	printf("%d\n", apple);
+	return (apple);
 }
