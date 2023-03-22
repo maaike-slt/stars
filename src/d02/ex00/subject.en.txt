@@ -1,11 +1,11 @@
 file to turn in:		sum.c
 forbidden functions:	None
 
-a small elf need to count the number of apple in it's magical farm
-every day he need to do the same thing over and over again
+a small elf need to count the number of apples in it's magical farm
+every day he needs to do the same thing over and over again
 
 would you accept to help him
-by creating a function that count apple for him?
+by creating a function that count apples for him?
 
 ⚠️ this exercise step up the difficulty
 but if you succeed the next exercise
@@ -17,12 +17,12 @@ with the prototype:
 unsigned int	sum(unsigned int tree);
 ```
 
-in the elf magical farm, the tree are magic and produce apple a weird way
+in the elf's magical farm, the trees are magic and produce apples a weird way
 
-for a row of tree, a tree will produce apple + 1 of the tree on it's left
+for a row of trees, a tree will produce apples + 1 of the tree on it's left
 
 in other words:
-this function need to return the sum of all number
+this function need to return the sum of all numbers
 from 0 to number of tree `tree`
 
 if `tree` = 3:
