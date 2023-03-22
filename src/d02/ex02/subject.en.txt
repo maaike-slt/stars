@@ -1,0 +1,65 @@
+file to turn in:		can_feed.c
+forbidden functions:	None
+
+perfect, now the small elf don't need to count every apple every day!
+
+he thank you a lot and invite you to his barn
+as you come him, you see some very cute ponies 🐎
+the small elf explains to you that he harvest the apple to feed the ponies
+the elf doesn't own the ponies, there are wild ponies that he likes to feed
+
+he also tells you that
+everyday there are a different amount of ponies
+and the small elf count the amount of apples everyday
+to know if he has enough apples to feed all the ponies
+
+you realise that you can help the small elf again
+you just made a function to count the number of apples
+
+💡 you will need to learn about `bool` and `#include`
+
+you shall create the function `can_feed`
+with the prototype:
+```c
+bool	can_feed(unsigned int tree, unsigned int pony);
+```
+
+the file can_feed already exist
+
+you do not need to re-code the function `special_sum`
+it is availible to be used/call in the file by doing:
+```c
+int tree;
+int answer;
+
+tree = 42;
+answer = special_sum(tree);
+```
+
+the goal of the function `can_feed`
+is to return `true` if the number of `tree` can produce more apples
+than the number of `pony`
+
+if `tree` = 3
+	&& `pony` = 5:
+can_feed(3, 5) = (
+	special_sum(3) = 0 + 1 + 0 + 3 = 4
+	4 < 5
+) = false
+
+if `tree` = 3
+	&& `pony` = 2:
+can_feed(3, 2) = (
+	special_sum(3) = 0 + 1 + 0 + 3 = 4
+	4 > 2
+) = true
+
+
+if `tree` = 3
+	&& `pony` = 4:
+can_feed(3, 2) = (
+	special_sum(3) = 0 + 1 + 0 + 3 = 4
+	4 == 4
+) = true
+
+good luck :3
