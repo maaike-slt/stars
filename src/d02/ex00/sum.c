@@ -6,22 +6,21 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/22 19:18:04 by msloot            #+#    #+#             */
-/*   Updated: 2023/03/22 19:32:33 by msloot           ###   ########.fr       */
+/*   Updated: 2023/03/23 19:06:04 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 unsigned int	sum(unsigned int tree)
 {
 	unsigned int	apple;
+	unsigned int	count;
 
 	apple = 0;
-	while (apple <= tree)
+	count = 0;
+	while (count < tree)
 	{
-		printf("%d\n", apple);
-		++apple;
+		++count;
+		apple += count;
 	}
-	printf("%d\n", apple);
 	return (apple);
 }
