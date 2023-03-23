@@ -1,0 +1,42 @@
+file to turn in:		can_feed.c
+forbidden functions:	None
+
+you're the best, now the elf has all the time in the world
+
+he tells you that with that time, he will get to know the ponies 🐎
+and maybe make friend with them,
+all of that will start by remembering their name
+
+by asking the ponies, the small elf realise that they have pony names
+that are hard to remember for him
+
+you suggest to the small elf to remember only the first letter of each name
+that way, there is way less information to remember
+
+the small elf thank you again
+he is happy to see that even with his bad memory he will be able
+to remember information about the ponies
+
+you decide to help him a bit more by creating a function
+that will return the first letter of a pony name
+
+💡 you will learn about the concept of:
+	`string`, `array`, `char *` and maybe even `pointer`
+
+you shall create the function `first_letter`
+with the prototype:
+```c
+char	first_letter(char *pony_name);
+```
+
+if `pony_name` = "Parthenia":
+first_letter("Parthenia") = 'P'
+
+if `pony_name` = "Spurgeon":
+first_letter("Spurgeon") = 'S'
+
+💡 you don't have to handle empty string,
+	as you won't encounter any empty names
+	e.g. first_letter("")
+
+good luck :3
