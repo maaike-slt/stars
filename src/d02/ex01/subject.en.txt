@@ -1,10 +1,10 @@
 file to turn in:		special_sum.c
 forbidden functions:	None
 
-well played, you helped the small elf to count his apple
-but you still see the small elf, further away, stil count apple by hand
+well played, you helped the small elf to count his apples
+but you still see the small elf, further away, stil count apples by hand
 you realise that deeper in the magical farm,
-there are special row of magical tree
+there are special rows of magical tree
 
 you shall create the function `special_sum`
 with the prototype:
@@ -12,10 +12,10 @@ with the prototype:
 unsigned int	special_sum(unsigned int tree);
 ```
 
-the special row of tree works as follow:
-if the total of tree is even, the number of apple works like regular row
+the special row of trees work as follow:
+if the total of trees is even, the number of apple works like regular row
 
-but if the total of tree is odd, every even tree is skipped in the sum
+but if the total of trees is odd, every even tree is skipped in the sum
 
 if `tree` = 4:
 sum(4) = 0 + 1 + 2 + 3 + 4 = 10
