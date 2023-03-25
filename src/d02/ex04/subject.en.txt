@@ -1,0 +1,36 @@
+file to turn in:		name_len.c
+forbidden functions:	strlen
+
+the small elf is very happy to be able to connect with the ponies 🐎
+
+but you start to realise something
+some ponies have the same first letter for their name
+
+you start to think how you could still differenciate the names easily
+all of a suddent, you have an idea, what if the small elf
+only has to remember, the first letter of the name, and it's length
+
+you talk about it to the smal elf, and he jump of happiness
+
+you goal is clear, create a function `name_len` !
+
+
+💡 search what is a `size_t`
+
+you shall create the function `name_len`
+with the prototype:
+```c
+size_t	name_len(char *pony_name);
+```
+
+if `pony_name` = "Parthenia":
+name_len("Parthenia") = 9
+
+if `pony_name` = "Ab":
+name_len("Ab") = 2
+
+💡 you don't have to handle empty string,
+	as you won't encounter any empty names
+	e.g. name_len("")
+
+good luck :3
