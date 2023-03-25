@@ -1,16 +1,19 @@
 file to turn in:		can_feed.c
 forbidden functions:	None
 
-perfect, now the small elf don't need to count every apple every day!
+perfect, now the small elf doesn't need to count every apple 
+every day!
 
-he thank you a lot and invite you to his barn
-as you come him, you see some very cute ponies 🐎
-the small elf explains to you that he harvest the apple to feed the ponies
-the elf doesn't own the ponies, there are wild ponies that he likes to feed
+he thanks you a lot and invites you to his barn
+as you come in, you see some very cute ponies 🐎
+the small elf explains to you that he harvests the apples to 
+feed the ponies
+the elf doesn't own the ponies, they're wild ponies that he 
+likes to feed
 
 he also tells you that
-everyday there are a different amount of ponies
-and the small elf count the amount of apples everyday
+everyday there is a different amount of ponies
+and the small elf counts the amount of apples everyday
 to know if he has enough apples to feed all the ponies
 
 you realise that you can help the small elf again
