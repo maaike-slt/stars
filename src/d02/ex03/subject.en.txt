@@ -1,4 +1,4 @@
-file to turn in:		can_feed.c
+file to turn in:		first_letter.c
 forbidden functions:	None
 
 you're the best, now the elf has all the time in the world
