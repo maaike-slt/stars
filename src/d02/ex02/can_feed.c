@@ -6,7 +6,7 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/25 15:29:40 by msloot            #+#    #+#             */
-/*   Updated: 2023/03/27 21:53:41 by msloot           ###   ########.fr       */
+/*   Updated: 2023/03/28 21:43:05 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,8 @@ bool	can_feed(unsigned int tree, unsigned int pony)
 	unsigned int	apple;
 
 	apple = special_sum(tree);
-	/*
-		your code
-		...
-	*/
-	return (false);	// return your solution
+	if (apple >= pony)
+		return (true);
+	else
+		return (false);
 }
