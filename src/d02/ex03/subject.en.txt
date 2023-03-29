@@ -4,16 +4,16 @@ forbidden functions:	None
 you're the best, now the elf has all the time in the world
 
 he tells you that with that time, he will get to know the ponies 🐎
-and maybe make friend with them,
-all of that will start by remembering their name
+and maybe make friends with them,
+all of that will start by remembering their names
 
-by asking the ponies, the small elf realise that they have pony names
+by asking the ponies, the small elf realises that they have pony names
 that are hard to remember for him
 
 you suggest to the small elf to remember only the first letter of each name
 that way, there is way less information to remember
 
-the small elf thank you again
+the small elf thanks you again
 he is happy to see that even with his bad memory he will be able
 to remember information about the ponies
 
@@ -35,7 +35,7 @@ first_letter("Parthenia") = 'P'
 if `pony_name` = "Spurgeon":
 first_letter("Spurgeon") = 'S'
 
-💡 you don't have to handle empty string,
+💡 you don't have to handle empty strings,
 	as you won't encounter any empty names
 	e.g. first_letter("")
 
