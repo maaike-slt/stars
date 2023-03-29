@@ -6,7 +6,7 @@
 #    By: adelille <adelille@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/11/30 19:21:49 by adelille          #+#    #+#              #
-#    Updated: 2023/03/23 11:54:03 by adelille         ###   ########.fr        #
+#    Updated: 2023/03/29 18:04:21 by adelille         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,7 +30,7 @@ OBJS =		$(SRCS:.c=.o)
 all:		$(NAME)
 
 test:		all
-	@./$(NAME)
+	@./$(NAME) && cat .end.txt
 
 $(NAME):	$(OBJS)
 	$(CC) $(CFLAGS) $(OBJS) -o $(NAME)
