@@ -7,12 +7,12 @@ but you start to realise something
 some ponies have the same first letter for their name
 
 you start to think how you could still differenciate the names easily
-all of a suddent, you have an idea, what if the small elf
+all of a sudden, you have an idea, what if the small elf
 only has to remember, the first letter of the name, and it's length
 
-you talk about it to the smal elf, and he jump of happiness
+you talk about it to the small elf, and he jumps of happiness
 
-you goal is clear, create a function `name_len` !
+your goal is clear, create a function `name_len` !
 
 
 💡 search what is a `size_t`
