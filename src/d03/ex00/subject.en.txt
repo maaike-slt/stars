@@ -1,0 +1,39 @@
+file to turn in:		find_char.c
+forbidden functions:	all stdlib functions
+
+a few meters into the woods, you stumble upon a magical bunny 🐇
+
+the magical bunny 🐇 look at you and says:
+- 'I saw you helping the small elf, I am quite impressed.
+   I think you have quite a gift with the ues of the ancient art of C programing.
+   You see, I have dedicated most of my life learning the art of C,
+   and I would like to have you as my student!'
+
+you had some trouble following what the magical bunny 🐇 was saying,
+as you were quite distracted by how cute the magical bunny 🐇 is
+after you find your concentration back, you get all excited and say yes
+
+the magical bunny 🐇 says:
+- 'Good, for this first exercise, I will give you a word, and a letter,
+   and you will need to find the letter in the word
+   and tell me where it is'
+
+you shall create the function `find_char`
+with the prototype:
+```c
+ssize_t	find_char(char *word, char letter);
+```
+
+💡 search what is a `size_t`
+
+if `pony_name` = "Parthenia":
+name_len("Parthenia") = 9
+
+if `pony_name` = "Ab":
+name_len("Ab") = 2
+
+💡 you don't have to handle empty string,
+	as you won't encounter any empty names
+	e.g. name_len("")
+
+good luck :3
