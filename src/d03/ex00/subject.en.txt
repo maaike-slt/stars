@@ -24,7 +24,7 @@ with the prototype:
 size_t	find_char(char *word, char letter);
 ```
 
-this function will return the `index` of the first char == `letter` in `word`
+this function will return the `index` of the char `word[index]` == `letter
 
 if `word` = "hello" and `letter` = 'e':
 find_char("hello", 'e') = 1
