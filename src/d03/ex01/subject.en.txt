@@ -1,0 +1,42 @@
+file to turn in:		find_char.c
+forbidden functions:	all stdlib functions
+
+the magical bunny 🐇 says:
+- 'Very good, you start to understand the magic of C.
+   I would like you to do the same, but this time,
+   I am gonna throw a bunch of shit at you.
+   Your goal will be not to have your program explode 💥 impressivingly'
+
+you shall create the function `find_char`
+with the prototype:
+```c
+ssize_t	find_char(char *word, char letter);
+```
+
+💡🐇 a `ssize_t` is a `signed size_t`, which mean that it can go negative
+     it is useful when a function can return an error, then it can return -1
+	 for example: `write` return an `ssize_t`
+	 it usualy return the size of what it wrote
+	 but will return -1 in case of error
+
+this function will return the `index` of the first `word[index]` == `letter`
+
+if `word` = "hello" and `letter` = 'e':
+find_char("hello", 'e') = 1
+
+if `word` = "world" and `letter` = 'w':
+find_char("world", 'w') = 0
+
+in case of 2+ char found, return the first one:
+if `word` = "banana" and `letter` = 'n':
+find_char("banana", 'n') = 2
+
+in case of 0 char found, return -1
+if `word` = "banana" and `letter` = 'e':
+find_char("banana", 'e') = -1
+
+in case of empty word, return -1
+if `word` = "" and `letter` = 'a':
+find_char("", 'a') = -1
+
+good luck :3
