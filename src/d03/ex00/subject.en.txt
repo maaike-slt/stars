@@ -18,6 +18,11 @@ the magical bunny 🐇 says:
    and you will need to find the letter in the word
    and tell me where it is'
 
+right after the bunny finish talking, you start to see a bunch of words
+comming from deep in the forest
+as they come at you, leaves from the trees start to fall
+you start to feel attacked by the leaves and decide to code to defend yourself
+
 you shall create the function `find_char`
 with the prototype:
 ```c
