@@ -6,12 +6,11 @@
 /*   By: adelille <adelille@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/20 10:13:19 by adelille          #+#    #+#             */
-/*   Updated: 2023/03/29 18:04:05 by adelille         ###   ########.fr       */
+/*   Updated: 2023/04/01 11:48:34 by adelille         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stddef.h>
-#include <stdio.h>
 
 size_t	name_len(char *pony_name);
 
