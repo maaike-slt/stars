@@ -21,19 +21,23 @@ the magical bunny 🐇 says:
 you shall create the function `find_char`
 with the prototype:
 ```c
-ssize_t	find_char(char *word, char letter);
+size_t	find_char(char *word, char letter);
 ```
 
-💡 search what is a `size_t`
+this function will return the `index` of the first char == `letter` in `word`
 
-if `pony_name` = "Parthenia":
-name_len("Parthenia") = 9
+if `word` = "hello" and `letter` = 'e':
+find_char("hello", 'e') = 1
 
-if `pony_name` = "Ab":
-name_len("Ab") = 2
+if `word` = "world" and `letter` = 'w':
+find_char("world", 'w') = 0
 
-💡 you don't have to handle empty string,
-	as you won't encounter any empty names
-	e.g. name_len("")
+💡 you don't have to handle:
+	- `letter` found multiple times
+		( find_char("banana", 'a') )
+	- `letter` not found
+		( find_char("banana", 'e') )
+	- `word` is empty
+		( find_char("", 'a') )
 
 good luck :3

@@ -6,21 +6,20 @@
 /*   By: adelille <adelille@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/20 10:13:19 by adelille          #+#    #+#             */
-/*   Updated: 2023/03/29 18:04:05 by adelille         ###   ########.fr       */
+/*   Updated: 2023/04/01 11:51:03 by adelille         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stddef.h>
-#include <stdio.h>
 
-size_t	name_len(char *pony_name);
+size_t	find_char(char *word, char letter);
 
 int	main(void)
 {
 	return (!(
-			name_len("Parthenia") == 9
-			&& name_len("Spurgeon") == 8
-			&& name_len("Zaby") == 4
-			&& name_len("Ab") == 2
+			find_char("hello", 'e') == 1
+			&& find_char("world", 'w') == 0
+			&& find_char("last", 't') == 3
+			&& find_char("but wait, what if?", '?') == 17
 		));
 }
