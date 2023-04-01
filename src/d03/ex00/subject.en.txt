@@ -3,9 +3,9 @@ forbidden functions:	all stdlib functions
 
 a few meters into the woods, you stumble upon a magical bunny 🐇
 
-the magical bunny 🐇 look at you and says:
+the magical bunny 🐇 looks at you and says:
 - 'I saw you helping the small elf, I am quite impressed.
-   I think you have quite a gift with the ues of the ancient art of C programing.
+   I think you have quite a gift with the use of the ancient art of C programing.
    You see, I have dedicated most of my life learning the art of C,
    and I would like to have you as my student!'
 
@@ -18,7 +18,7 @@ the magical bunny 🐇 says:
    and you will need to find the letter in the word
    and tell me where it is'
 
-right after the bunny finish talking, you start to see a bunch of words
+right after the bunny finishes talking, you start to see a bunch of words
 comming from deep in the forest
 as they come at you, leaves from the trees start to fall
 you start to feel attacked by the leaves and decide to code to defend yourself
@@ -29,7 +29,7 @@ with the prototype:
 size_t	find_char(char *word, char letter);
 ```
 
-this function will return the `index` of the char `word[index]` == `letter
+this function will return the `index` of the char `word[index]` == `letter`
 
 if `word` = "hello" and `letter` = 'e':
 find_char("hello", 'e') = 1
