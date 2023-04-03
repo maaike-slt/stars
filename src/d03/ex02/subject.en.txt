@@ -1,0 +1,60 @@
+file to turn in:		find_char.c
+forbidden functions:	all stdlib functions
+
+you are very happy to be able to handle that many situation
+and to not explode 💥 impressivingly
+
+the magical bunny 🐇 says:
+- 'You are getting it!
+   this next one won't be hard, don't worry
+   your goal will be to tell me if a number is more or less than 42'
+
+this time, you don't see any threat attacking you
+you decide to take it nice and slow :3
+
+all of a suddent, the trees in the forest start to move
+then you begin to see a beautiful lake right in front of you
+
+you shall create the function `over_42`
+with the prototype:
+```c
+size_t	over_42(uint8_t *arr, size_t size);
+```
+
+💡🐇 a `uint8_t` (defined in `stdint.h`) is an `unsigned` number
+     that takes 8 bits (1 byte), (MIN 0, MAX 255)
+	 in C, depending on what computer you are, an `int`
+	 can takes a different amount of bytes
+	 to handle that un-uniform problem, the:
+	 	- `int8_t`
+	 	- `int16_t`
+	 	- `int32_t`
+		- `uint8_t`
+		- `uint16_t`
+		- `uint32_t`
+	has been created, they are standard
+	and you should try to use them as much as possible
+
+this function takes and `array` and its `size` in input
+it shall return how many elements of the array are strictly over 42
+
+if `arr` = [0, 21, 43]
+	and `size` = 4:
+over_42([0, 21, 43], 4) = 1
+
+if `word` = "world" and `letter` = 'w':
+find_char("world", 'w') = 0
+
+in case of 2+ char found, return the first one:
+if `word` = "banana" and `letter` = 'n':
+find_char("banana", 'n') = 2
+
+in case of 0 char found, return -1
+if `word` = "banana" and `letter` = 'e':
+find_char("banana", 'e') = -1
+
+in case of empty word, return -1
+if `word` = "" and `letter` = 'a':
+find_char("", 'a') = -1
+
+good luck :3
