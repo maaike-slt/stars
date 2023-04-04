@@ -39,22 +39,23 @@ this function takes and `array` and its `size` in input
 it shall return how many elements of the array are strictly over 42
 
 if `arr` = [0, 21, 43]
-	and `size` = 4:
-over_42([0, 21, 43], 4) = 1
+	and `size` = 3:
+uint8_t	arr[] = {0, 21, 43};
+over_42(arr, 3) = 1
 
-if `word` = "world" and `letter` = 'w':
-find_char("world", 'w') = 0
+if `arr` = [0, 21, 41]
+	and `size` = 3:
+uint8_t	arr[] = {0, 21, 41};
+over_42(arr, 3) = 0
 
-in case of 2+ char found, return the first one:
-if `word` = "banana" and `letter` = 'n':
-find_char("banana", 'n') = 2
+if `arr` = [0, 21, 42]
+	and `size` = 3:
+uint8_t	arr[] = {0, 21, 42};
+over_42(arr, 3) = 0
 
-in case of 0 char found, return -1
-if `word` = "banana" and `letter` = 'e':
-find_char("banana", 'e') = -1
-
-in case of empty word, return -1
-if `word` = "" and `letter` = 'a':
-find_char("", 'a') = -1
+if `arr` = []
+	and `size` = 0:
+uint8_t	arr[];
+over_42(arr, 0) = 0
 
 good luck :3
