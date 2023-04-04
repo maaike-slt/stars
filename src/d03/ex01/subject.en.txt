@@ -16,8 +16,8 @@ ssize_t	find_char(char *word, char letter);
 💡🐇 a `ssize_t` (defined in `sys/types.h`) is a `signed size_t`
      which mean that it can go negative
      it is useful when a function can return an error, then it can return -1
-	 for example: `write` return an `ssize_t`
-	 it usualy return the size of what it wrote
+	 for example: `write` returns an `ssize_t`
+	 it usualy returns the size of what it wrote
 	 but will return -1 in case of error
 
 this function will return the `index` of the first `word[index]` == `letter`
