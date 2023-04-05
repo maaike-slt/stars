@@ -35,7 +35,7 @@ size_t	over_42(uint8_t *arr, size_t size);
 	has been created, they are standard
 	and you should try to use them as much as possible
 
-this function takes and `array` and its `size` in input
+this function takes an `array` and its `size` in input
 it shall return how many elements of the array are strictly over 42
 
 if `arr` = [0, 21, 43]
