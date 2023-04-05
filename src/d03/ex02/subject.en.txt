@@ -1,4 +1,4 @@
-file to turn in:		find_char.c
+file to turn in:		over_42.c
 forbidden functions:	all stdlib functions
 
 you are very happy to be able to handle that many situation
@@ -12,7 +12,7 @@ the magical bunny 🐇 says:
 this time, you don't see any threat attacking you
 you decide to take it nice and slow :3
 
-all of a suddent, the trees in the forest start to move
+all of a sudden, the trees in the forest start to move
 then you begin to see a beautiful lake right in front of you
 
 you shall create the function `over_42`
