@@ -1,0 +1,62 @@
+file to turn in:		more_duck.c
+forbidden functions:	all stdlib functions
+
+the magical bunny 🐇 says:
+- 'Good, now let's see if you can count better.
+   Do you see those ducks 🦆 in the lake?
+   You will have to tell me every hour
+   if there are more ducks 🦆 than the last hour'
+
+you see the cute duck 🦆 in the lake
+they are very cute :3
+
+you shall create the function `more_duck`
+with the prototype:
+```c
+size_t	more_duck(uint8_t *duck, size_t size);
+```
+
+this function takes an `array` and its `size` in input
+the `array` `uint8_t *duck` holds the number of ducks per hour:
+ - `duck[0]` number of ducks at hour 0
+ - `duck[1]` number of ducks at hour 1
+ ...
+it shall return how many times `duck[n]` > `duck[n - 1]`
+
+if `duck` = [3, 5, 3, 4]
+	and `size` = 4:
+uint8_t	duck[] = {3, 5, 3, 4};
+more_duck(duck, 4) = 2
+
+     	               more:
+hour:	0   1   2   3
+duck:   3   5   3   4
+     	3 < 5          true  (+1)
+     	    5 > 3      false (+0)
+			    3 < 4  true  (+1)
+     	                     (=2)
+
+if `duck` = [4, 4, 5, 6]
+	and `size` = 4:
+uint8_t	duck[] = {4, 4, 5, 6};
+more_duck(duck, 4) = 2
+
+     	               more:
+hour:	0   1   2   3
+duck:	4   4   5   6
+     	4 = 4          false (+0)
+     	    4 < 5      true  (+1)
+			    5 < 6  true  (+1)
+     	                     (=2)
+
+if `duck` = []
+	and `size` = 0:
+uint8_t	duck[];
+more_duck(duck, 0) = 0
+
+if `duck` = [42]
+	and `size` = 1:
+uint8_t	duck[] = {42};
+more_duck(duck, 1) = 0
+
+good luck :3
