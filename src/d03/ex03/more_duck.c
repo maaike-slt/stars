@@ -1,30 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   over_42.c                                          :+:      :+:    :+:   */
+/*   more_duck.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/05 15:57:17 by msloot            #+#    #+#             */
-/*   Updated: 2023/04/06 18:28:23 by msloot           ###   ########.fr       */
+/*   Created: 2023/04/06 18:20:17 by msloot            #+#    #+#             */
+/*   Updated: 2023/04/06 18:42:33 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdint.h>
 #include <stddef.h>
 
-size_t	over_42(uint8_t *arr, size_t size)
+size_t	more_duck(uint8_t *duck, size_t size)
 {
 	size_t	i;
-	size_t	count;
+	size_t	ret;
 
-	i = 0;
-	count = 0;
+	i = 1;
+	ret = 0;
 	while (i < size)
 	{
-		if (arr[i] > 42)
-			count++;
+		if (duck[i] > duck[i - 1])
+			ret++;
 		i++;
 	}
-	return (count);
+	return (ret);
 }
