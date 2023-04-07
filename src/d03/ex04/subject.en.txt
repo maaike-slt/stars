@@ -1,0 +1,71 @@
+file to turn in:		what_tree_now.c
+forbidden functions:	all stdlib functions
+
+the magical bunny 🐇 says:
+- 'You are counting well!
+   What if the exercise is tiny harder?
+
+   Can you see the tree row with the three tree,
+   the one behind the three tall tree
+   but before those three small tree?'
+
+you shall create the function `what_tree_now`
+with the prototype:
+```c
+size_t	what_tree_now(const uint8_t *tree_row, size_t size);
+```
+
+💡🐇 the keyword `const` tell the compiler that
+     a particular variable should not be modified
+     it helps to not integrate bugs in case
+	 a variable shall not change or the program might crash
+	 also give additional information to other dev reading code
+
+this function takes an `array` and its `size` in input
+the `array` `uint8_t *tree_row` represent
+a row of trees with their height
+ - `tree_row[0]` height of the first tree in the row
+ - `tree_row[0]` height of the second tree in the row
+ ...
+it shall return how many tree you can see
+
+let's take the example `tree_row` = [2, 3, 4, 2, 5, 1, 2, 6]
+represented as follow:
+
+----------------------x▲
+----------------x▲     ┃
+--view:-----x▲   ┃     ┃
+----------x▲ ┃   ┃     ┃
+--------x▲ ┃ ┃ ▲ ┃   ▲ ┃
+--------x┃ ┃ ┃ ┃ ┃ ▲ ┃ ┃
+height:  2 3 4 2 5 1 2 6
+index:   0 1 2 3 4 5 6 7
+see y/n: y y y n y n n y (4 yes, 3 no)
+
+in that situation, we can see 4 trees in the row
+by looking straight into it
+
+if `tree_row` = [2, 3, 4, 2, 5, 1, 2, 6]
+	and `size` = 8:
+uint8_t	tree_row[] = {2, 3, 4, 2, 5, 1, 2, 6};
+what_tree_now(tree_row, 8) = 4
+
+if `tree_row` = [5, 5, 5, 5]
+	and `size` = 4:
+uint8_t	tree_row[] = {5, 5, 5, 5};
+what_tree_now(tree_row, 4) = 1
+
+if `tree_row` = [42]
+	and `size` = 1:
+uint8_t	tree_row[] = {42};
+what_tree_now(tree_row, 1) = 1
+
+if `tree_row` = []
+	and `size` = 0:
+uint8_t	tree_row[];
+what_tree_now(tree_row, 0) = 0
+
+💡 you don't have to handle `tree_row` = [0]
+   as tree cannot have a height of 0
+
+good luck :3
