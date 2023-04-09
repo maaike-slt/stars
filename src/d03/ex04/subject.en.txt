@@ -3,10 +3,10 @@ forbidden functions:	all stdlib functions
 
 the magical bunny 🐇 says:
 - 'You are counting well!
-   What if the exercise is tiny harder?
+   What if the exercise is tiny bit harder?
 
-   Can you see the tree row with the three tree,
-   the one behind the three tall tree
+   Can you see the tree rows with the three trees,
+   the one behind the three tall trees
    but before those three small tree?'
 
 you shall create the function `what_tree_now`
@@ -15,7 +15,7 @@ with the prototype:
 size_t	what_tree_now(const uint8_t *tree_row, size_t size);
 ```
 
-💡🐇 the keyword `const` tell the compiler that
+💡🐇 the keyword `const` tells the compiler that
      a particular variable should not be modified
      it helps to not integrate bugs in case
 	 a variable shall not change or the program might crash
@@ -27,7 +27,7 @@ a row of trees with their height
  - `tree_row[0]` height of the first tree in the row
  - `tree_row[0]` height of the second tree in the row
  ...
-it shall return how many tree you can see
+it shall return how many trees you can see
 
 let's take the example `tree_row` = [2, 3, 4, 2, 5, 1, 2, 6]
 represented as follow:
