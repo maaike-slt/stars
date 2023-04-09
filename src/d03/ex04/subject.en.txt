@@ -40,15 +40,15 @@ represented as follow:
 --------x┃ ┃ ┃ ┃ ┃ ▲ ┃ ┃
 height:  2 3 4 2 5 1 2 6
 index:   0 1 2 3 4 5 6 7
-see y/n: y y y n y n n y (4 yes, 3 no)
+see y/n: y y y n y n n y (5 yes, 3 no)
 
-in that situation, we can see 4 trees in the row
+in that situation, we can see 5 trees in the row
 by looking straight into it
 
 if `tree_row` = [2, 3, 4, 2, 5, 1, 2, 6]
 	and `size` = 8:
 uint8_t	tree_row[] = {2, 3, 4, 2, 5, 1, 2, 6};
-what_tree_now(tree_row, 8) = 4
+what_tree_now(tree_row, 8) = 5
 
 if `tree_row` = [5, 5, 5, 5]
 	and `size` = 4:

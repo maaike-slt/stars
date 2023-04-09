@@ -6,7 +6,7 @@
 /*   By: adelille <adelille@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/20 10:13:19 by adelille          #+#    #+#             */
-/*   Updated: 2023/04/07 15:37:05 by adelille         ###   ########.fr       */
+/*   Updated: 2023/04/09 10:50:08 by adelille         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ int	main(void)
 	tree_row[5] = 1;
 	tree_row[6] = 2;
 	tree_row[7] = 6;
-	res |= what_tree_now(tree_row, 8) != 4;
+	res |= what_tree_now(tree_row, 8) != 5;
 	tree_row[0] = 5;
 	tree_row[1] = 5;
 	tree_row[2] = 5;
