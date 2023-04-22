@@ -1,0 +1,31 @@
+file to turn in:		the_answer.c
+allowed functions:		None
+
+you are on the floating island with the magical bunny 🐇
+
+the magical bunny 🐇 looks at you and says:
+- 'We need to prepare you for what is to come!
+   Let's start by making everything 42, that's always the answer'
+
+you shall create the function `the_answer`
+with the prototype:
+```c
+void	the_answer(uint8_t *ptr);
+```
+
+this function give you a pointer to a `uint8_t`
+you need to change the `uint8_t` it's pointing to, to 42
+
+if `n` = 0:
+the_answer(&n);
+`n` == 42
+
+if `n` = 81:
+the_answer(&n);
+`n` == 42
+
+if `n` = 42:
+the_answer(&n);
+`n` == 42
+
+good luck :3
