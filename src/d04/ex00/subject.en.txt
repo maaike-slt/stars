@@ -4,7 +4,13 @@ allowed functions:		None
 you are on the floating island with the magical bunny 🐇
 
 the magical bunny 🐇 looks at you and says:
-- 'We need to prepare you for what is to come!
+- 'We need to prepare you for what is to come!'
+
+as the magical bunny 🐇 finishes, a huge tornado
+appear in the middle of the woods!
+
+the magical bunny 🐇 says:
+- 'There is a lot of chaos, you must calm everything!
    Let's start by making everything 42, that's always the answer'
 
 you shall create the function `the_answer`
