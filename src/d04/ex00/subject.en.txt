@@ -20,7 +20,7 @@ void	the_answer(uint8_t *ptr);
 ```
 
 this function give you a pointer to a `uint8_t`
-you need to change the `uint8_t` it's pointing to, to 42
+you need to change the value being pointed to 42
 
 if `n` = 0:
 the_answer(&n);
