@@ -6,11 +6,12 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/23 15:06:24 by msloot            #+#    #+#             */
-/*   Updated: 2023/04/23 15:34:46 by msloot           ###   ########.fr       */
+/*   Updated: 2023/04/23 17:21:39 by adelille         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdint.h>
+
 void	the_answer(uint8_t *ptr)
 {
 	*ptr = 42;
