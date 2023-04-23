@@ -1,0 +1,47 @@
+file to turn in:		swap.c
+allowed functions:		None
+
+the tornado calms down
+
+the magical bunny 🐇 says:
+- 'You did a great job.
+   There is a lot more to do. starting by fixing those animals'
+
+the magical bunny 🐇 point to a fox 🦊 with wings and some kind of fluffy bat 🦇?
+
+the magical bunny 🐇 says:
+- 'The animals here have been affected by all the chaos
+   This fox 🦊 has butterfly 🦋 wings,
+   which means that some butterfly 🦋 lost them.
+   And this animal is half bat 🦇 half squirrel 🐿️,
+   which means that somewhere there is a half squirrel 🐿️ half bat 🦇.
+   You need to give back the butterfly 🦋 wings
+   to the poor wingless butterfly 🦋.
+   And fix those other chimera.'
+
+you shall create the function `swap`
+with the prototype:
+```c
+void	swap(int *a, int *b);
+```
+
+this function gives you two pointer
+you need to swap their value
+
+if `a` = 42 and `b` = 21:
+swap(&a, &b);
+`a` == 21 and `b` = 42;
+
+if `a` = 21 and `b` = 42;
+swap(&a, &b);
+`a` == 42 and `b` = 21;
+
+if `a` = 0 and `b` = 0;
+swap(&a, &b);
+`a` == 0 and `b` = 0;
+
+if `a` = 42 and `b` = 42;
+swap(&a, &b);
+`a` == 42 and `b` = 42;
+
+good luck :3
