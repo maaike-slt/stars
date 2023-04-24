@@ -1,11 +1,9 @@
 file to turn in:		ft_strcpy.c
 allowed functions:		None
 
-all the animals seems to be fixed, you did a great job
-
 the magical bunny 🐇 says:
 - 'Good! Very good!
-   The tornado destroyed quite some trees and plant.
+   Though, ... the tornado destroyed quite some trees and plants.
    We should replant them with the magic of C.
    You are gonna make a plant-copytator!'
 
