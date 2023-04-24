@@ -1,0 +1,23 @@
+file to turn in:		ft_strcpy.c
+allowed functions:		None
+
+all the animals seems to be fixed, you did a great job
+
+the magical bunny 🐇 says:
+- 'Good! Very good!
+   The tornado destroyed quite some trees and plant.
+   We should replant them with the magic of C.
+   You are gonna make a plant-copytator!'
+
+you shall create the function `ft_strcpy`
+with the prototype:
+```c
+char	*ft_strcpy(char *dest, const char *src);
+```
+
+this function need to reproduce the behavior of the function `strcpy`
+
+💡🐇 this time, you won't have explanation on what the function does
+     you will need to ask people and check `man strcpy`
+
+good luck :3
