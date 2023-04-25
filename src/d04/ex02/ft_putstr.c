@@ -1,32 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adelille <adelille@student.42.fr>          +#+  +:+       +#+        */
+/*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/20 10:13:19 by adelille          #+#    #+#             */
-/*   Updated: 2023/04/25 18:14:53 by msloot           ###   ########.fr       */
+/*   Created: 2023/04/25 17:35:02 by msloot            #+#    #+#             */
+/*   Updated: 2023/04/25 18:17:50 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <unistd.h>
 #include <sys/types.h>
-#include <stdbool.h>
-#include <string.h>
 
-ssize_t	ft_putstr(const char *str);
-
-int	main(int ac, char **av)
+ssize_t	ft_putstr(const char *str)
 {
-	bool	res;
-	int		i;
+	size_t	count;
 
-	res = false;
-	i = 1;
-	while (i < ac)
-	{
-		res |= ft_putstr(av[i]) != (ssize_t)strlen(av[i]);
-		i++;
-	}
-	return (res);
+	count = 0;
+	while (str[count] != '\0')
+		++count;
+	return (write(1, str, count));
 }

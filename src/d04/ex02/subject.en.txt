@@ -17,7 +17,7 @@ ssize_t	ft_putstr(const char *str);
 this function gonna print/write the string `str` to the console
 it shall return the size of what has been printed, and -1 in case of error
 
-💡🐇 `man 2 write`:
+💡🐇 `man 2 write` gives:
      RETURN VALUE
        On success, the number of bytes written is returned.
 	   On error, -1 is returned

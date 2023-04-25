@@ -6,7 +6,7 @@
 #    By: adelille <adelille@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/11/30 19:21:49 by adelille          #+#    #+#              #
-#    Updated: 2023/04/25 15:28:51 by adelille         ###   ########.fr        #
+#    Updated: 2023/04/25 18:17:16 by msloot           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,13 +46,13 @@ OBJS =		$(SRCS:.c=.o)
 
 # **************************************************************************** #
 
-define	test
-	@$(NAME) $(1) > you
-	@printf $(1) > expected
+define	ft_test
+	@./$(NAME) '$(1)' > you
+	@printf '$(1)' > expected
 	@if [[ ! -z $$(diff you expected) ]]; then \
 		printf "\t$(D)$(B)$(GRE)expected:$(D)\n$(GRE)"; \
 		cat expected; \
-		printf "$(D)\t$(B)$(RED)you:$(D)\n$(RED)"; \
+		printf "$(D)\n\t$(B)$(RED)you:$(D)\n$(RED)"; \
 		cat you; \
 		printf "$(D)\n" ; \
 		exit 1; \
@@ -66,10 +66,10 @@ endef
 all:		$(NAME)
 
 test:		all
-	$(call test,"hello\n")
-	$(call test,"")
-	$(call test,"1")
-	$(call test,"somewhat loooooooooooooooooooooooooooooooooooong")
+	$(call ft_test,"hello")
+	$(call ft_test,"")
+	$(call ft_test,"1")
+	$(call ft_test,"somewhatloooooooooooooooooooooooooooooooooooong")
 
 $(NAME):	$(OBJS)
 	$(CC) $(CFLAGS) $(OBJS) -o $(NAME)
